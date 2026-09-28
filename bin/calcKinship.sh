@@ -21,5 +21,6 @@ tabix Fsylvatica90.filtered2a.vcf.gz
 bcftools +fill-tags Fsylvatica90.filtered2a.vcf.gz >> Fsylvatica90.filtered3.vcf
 
 # 4.- Run kindred to compute kinship matrix
-
 ./kindred -i Fsylvatica90.filtered3.vcf.gz -o pre
+
+# Please, mute steps 1-3 if you already have  created the input file
